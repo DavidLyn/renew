@@ -1,0 +1,128 @@
+2018-05-05 05:18:23.559  INFO 41371 --- [main] com.vivi.renew.backend.RenewApplication  : Starting RenewApplication on lvweiweideMacBook-Pro.local with PID 41371 (/Users/lvweiwei/ViviProj/renew/backend/target/classes started by lvweiwei in /Users/lvweiwei/ViviProj/renew/backend)
+2018-05-05 05:18:23.562 DEBUG 41371 --- [main] com.vivi.renew.backend.RenewApplication  : Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-05-05 05:18:23.565  INFO 41371 --- [main] com.vivi.renew.backend.RenewApplication  : No active profile set, falling back to default profiles: default
+2018-05-05 05:18:23.633  INFO 41371 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1534f01b: startup date [Sat May 05 05:18:23 HKT 2018]; root of context hierarchy
+2018-05-05 05:18:24.261  WARN 41371 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.vivi.renew.backend]' package. Please check your configuration.
+2018-05-05 05:18:24.827  INFO 41371 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-05-05 05:18:24.848  INFO 41371 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-05 05:18:24.849  INFO 41371 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-05 05:18:24.853  INFO 41371 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/lvweiwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-05 05:18:24.919  INFO 41371 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-05 05:18:24.919  INFO 41371 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1287 ms
+2018-05-05 05:18:25.021  INFO 41371 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-05 05:18:25.025  INFO 41371 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-05 05:18:25.025  INFO 41371 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-05 05:18:25.025  INFO 41371 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-05 05:18:25.025  INFO 41371 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-05 05:18:25.190  INFO 41371 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 05:18:25.385  INFO 41371 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1534f01b: startup date [Sat May 05 05:18:23 HKT 2018]; root of context hierarchy
+2018-05-05 05:18:25.454  INFO 41371 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-05 05:18:25.456  INFO 41371 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-05 05:18:25.480  INFO 41371 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 05:18:25.481  INFO 41371 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 05:18:25.649  WARN 41371 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2018-05-05 05:18:25.652  INFO 41371 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-05-05 05:18:25.665  INFO 41371 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-05-05 05:18:25.681 ERROR 41371 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at com.vivi.renew.backend.RenewApplication.main(RenewApplication.java:10) [classes/:na]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:758) ~[spring-core-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:690) ~[spring-core-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:355) ~[spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:339) ~[spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:298) ~[spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1016) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	... 15 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lorg/springframework/boot/bind/RelaxedPropertyResolver;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[na:1.8.0_144]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583) ~[na:1.8.0_144]
+	at java.lang.Class.getDeclaredFields(Class.java:1916) ~[na:1.8.0_144]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:753) ~[spring-core-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.bind.RelaxedPropertyResolver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_144]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_144]
+	... 25 common frames omitted
+
+2018-05-05 05:20:45.168  INFO 42358 --- [main] com.vivi.renew.backend.RenewApplication  : Starting RenewApplication on lvweiweideMacBook-Pro.local with PID 42358 (/Users/lvweiwei/ViviProj/renew/backend/target/classes started by lvweiwei in /Users/lvweiwei/ViviProj/renew/backend)
+2018-05-05 05:20:45.174 DEBUG 42358 --- [main] com.vivi.renew.backend.RenewApplication  : Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-05-05 05:20:45.179  INFO 42358 --- [main] com.vivi.renew.backend.RenewApplication  : No active profile set, falling back to default profiles: default
+2018-05-05 05:20:45.378  INFO 42358 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@433d61fb: startup date [Sat May 05 05:20:45 HKT 2018]; root of context hierarchy
+2018-05-05 05:20:46.123  WARN 42358 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.vivi.renew.backend]' package. Please check your configuration.
+2018-05-05 05:20:46.733  INFO 42358 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-05-05 05:20:46.757  INFO 42358 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-05 05:20:46.757  INFO 42358 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-05 05:20:46.761  INFO 42358 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/lvweiwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-05 05:20:46.819  INFO 42358 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-05 05:20:46.819  INFO 42358 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1441 ms
+2018-05-05 05:20:46.911  INFO 42358 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-05 05:20:46.914  INFO 42358 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-05 05:20:46.915  INFO 42358 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-05 05:20:46.915  INFO 42358 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-05 05:20:46.915  INFO 42358 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-05 05:20:47.047  INFO 42358 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 05:20:47.265  INFO 42358 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@433d61fb: startup date [Sat May 05 05:20:45 HKT 2018]; root of context hierarchy
+2018-05-05 05:20:47.327  INFO 42358 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-05 05:20:47.346  INFO 42358 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-05 05:20:47.370  INFO 42358 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 05:20:47.370  INFO 42358 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 05:20:47.735  INFO 42358 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-05 05:20:47.737  INFO 42358 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-05 05:20:47.742  INFO 42358 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-05 05:20:47.787  INFO 42358 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2018-05-05 05:20:47.790  INFO 42358 --- [main] com.vivi.renew.backend.RenewApplication  : Started RenewApplication in 3.216 seconds (JVM running for 4.21)
+2018-05-05 05:21:23.768  INFO 42358 --- [Thread-10] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@433d61fb: startup date [Sat May 05 05:20:45 HKT 2018]; root of context hierarchy
+2018-05-05 05:21:23.770  INFO 42358 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-05 05:21:23.771  INFO 42358 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-05-05 05:21:38.018  INFO 42781 --- [main] com.vivi.renew.backend.RenewApplication  : Starting RenewApplication on lvweiweideMacBook-Pro.local with PID 42781 (/Users/lvweiwei/ViviProj/renew/backend/target/classes started by lvweiwei in /Users/lvweiwei/ViviProj/renew/backend)
+2018-05-05 05:21:38.023 DEBUG 42781 --- [main] com.vivi.renew.backend.RenewApplication  : Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-05-05 05:21:38.027  INFO 42781 --- [main] com.vivi.renew.backend.RenewApplication  : No active profile set, falling back to default profiles: default
+2018-05-05 05:21:38.213  INFO 42781 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1534f01b: startup date [Sat May 05 05:21:38 HKT 2018]; root of context hierarchy
+2018-05-05 05:21:38.953  WARN 42781 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.vivi.renew.backend]' package. Please check your configuration.
+2018-05-05 05:21:39.592  INFO 42781 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-05-05 05:21:39.626  INFO 42781 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-05 05:21:39.626  INFO 42781 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-05 05:21:39.630  INFO 42781 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/lvweiwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-05 05:21:39.690  INFO 42781 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-05 05:21:39.691  INFO 42781 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1479 ms
+2018-05-05 05:21:39.790  INFO 42781 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-05 05:21:39.794  INFO 42781 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-05 05:21:39.795  INFO 42781 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-05 05:21:39.795  INFO 42781 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-05 05:21:39.796  INFO 42781 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-05 05:21:39.938  INFO 42781 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 05:21:40.237  INFO 42781 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1534f01b: startup date [Sat May 05 05:21:38 HKT 2018]; root of context hierarchy
+2018-05-05 05:21:40.303  INFO 42781 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-05 05:21:40.305  INFO 42781 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-05 05:21:40.336  INFO 42781 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 05:21:40.337  INFO 42781 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-05 05:21:40.716  INFO 42781 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-05 05:21:40.719  INFO 42781 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-05 05:21:40.726  INFO 42781 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-05 05:21:40.771  INFO 42781 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2018-05-05 05:21:40.776  INFO 42781 --- [main] com.vivi.renew.backend.RenewApplication  : Started RenewApplication in 3.251 seconds (JVM running for 4.065)
+2018-05-05 05:22:28.375  INFO 42781 --- [Thread-9] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1534f01b: startup date [Sat May 05 05:21:38 HKT 2018]; root of context hierarchy
+2018-05-05 05:22:28.379  INFO 42781 --- [Thread-9] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-05 05:22:28.379  INFO 42781 --- [Thread-9] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
