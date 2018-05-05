@@ -1,6 +1,7 @@
 package com.vivi.renew.backend.accessory;
 
 public class CommonResult {
+
     private boolean result = true;
     private String message = "ok";
     private Object data = null;
