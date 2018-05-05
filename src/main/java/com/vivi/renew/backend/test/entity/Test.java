@@ -1,6 +1,7 @@
 package com.vivi.renew.backend.test.entity;
 
 public class Test {
+
     private int userID;
     private String userName;
     private int userAge;
