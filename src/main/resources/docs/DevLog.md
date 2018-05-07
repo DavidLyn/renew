@@ -13,3 +13,6 @@
 + 第三个按钮：Compare with the Same Repository Version 当前文件与服务器上该文件通版本的内容进行比较
 + 第四个按钮：Show history 显示当前文件的历史记录
 + 第五个按钮：Revert 还原当前被修改的文件到未被修改的版本状态下
+
+## 20180506
++ 在TestController中添加test方法，用于测试okhttp

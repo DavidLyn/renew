@@ -23,4 +23,9 @@ public class TestController {
         return new CommonResult(testMapper.findByUserId(userId));
     }
 
+    @RequestMapping(value="/test", method= RequestMethod.GET)
+    public String test() {
+        return "ok";
+    }
+
 }
