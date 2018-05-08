@@ -1,6 +1,7 @@
 package com.vivi.renew.backend.test.controller;
 
 import com.vivi.renew.backend.accessory.CommonResult;
+import com.vivi.renew.backend.test.entity.Test;
 import com.vivi.renew.backend.test.mapper.TestMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,6 +27,11 @@ public class TestController {
     @RequestMapping(value="/test", method= RequestMethod.GET)
     public String test() {
         return "ok";
+    }
+
+    @RequestMapping(value="/testObject", method= RequestMethod.GET)
+    public CommonResult testObject() {
+        return new CommonResult(new Test());
     }
 
 }
