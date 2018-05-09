@@ -16,3 +16,7 @@
 
 ## 20180506
 + 在TestController中添加test方法，用于测试okhttp
+
+
+## 20180509
++ 在TestController中添加方法，用于测试okhttputils的post 和 post json
