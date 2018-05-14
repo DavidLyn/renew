@@ -20,3 +20,11 @@
 
 ## 20180509
 + 在TestController中添加方法，用于测试okhttputils的post 和 post json
+
+## 20180510
++ 待研究文件上传功能
+[SpringBoot实现文件上传功能](https://www.cnblogs.com/zhile/p/8268944.html)
+[详细全面的 SpringBoot 文件上传](https://blog.csdn.net/change_on/article/details/59529034)
+[SpringBoot文件上传下载和多文件上传（图文详解）](https://blog.csdn.net/coding13/article/details/54577076)
+
++ 在TestController中添加方法upload，用于接收客户端上传文件
