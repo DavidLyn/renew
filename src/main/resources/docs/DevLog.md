@@ -28,3 +28,7 @@
 [SpringBoot文件上传下载和多文件上传（图文详解）](https://blog.csdn.net/coding13/article/details/54577076)
 
 + 在TestController中添加方法upload，用于接收客户端上传文件
+
+## 20180516
+
++ 在TestController中添加方法testRetrofitTest,用于测试retrofit

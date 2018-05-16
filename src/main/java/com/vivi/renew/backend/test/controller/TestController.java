@@ -85,4 +85,10 @@ public class TestController {
 
     }
 
+    // 测试retrofit
+    @RequestMapping(value="/retrofitTest", method= RequestMethod.GET)
+    public CommonResult testRetrofitTest() {
+        return new CommonResult("okokokokok");
+    }
+
 }
