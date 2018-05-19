@@ -55,7 +55,9 @@ public class TestController {
 
     // 接收上载的文件
     @RequestMapping(value="/testUpload", method = RequestMethod.POST)
-    public CommonResult upload(@RequestParam("file") MultipartFile file, HttpServletRequest request) {
+    public CommonResult upload(@RequestParam MultipartFile file, HttpServletRequest request) {
+        // 注意采用下述指定明确参数名的形式，要求客户端  Content-Disposition: form-data; name="file"; filename="IMG_20180514_213010.jpg"
+        //public CommonResult upload(@RequestParam("file") MultipartFile file, HttpServletRequest request) {
 
         String contentType = file.getContentType();
         String fileName = file.getOriginalFilename();
@@ -83,6 +85,17 @@ public class TestController {
 
         return new CommonResult("ok");
 
+    }
+
+    // 接收多个文件同时上传
+    @RequestMapping(value="/testUploads", method = RequestMethod.POST)
+    public CommonResult uploads(@RequestParam MultipartFile[] files, HttpServletRequest request) {
+
+        for (int i = 0; i < files.length; i++) {
+            logger.debug("file name =" + files[i].getOriginalFilename());
+        }
+
+        return new CommonResult("ok");
     }
 
     // 测试retrofit
